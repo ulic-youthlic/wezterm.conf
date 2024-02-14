@@ -28,6 +28,9 @@ local fonts = {
 local font_size
 local animation_fps
 local default_prog
+local front_end
+local webgpu_power_preference
+local webgpu_preferred_adapter
 
 if is_windows() then
     fonts[2] = {
@@ -38,6 +41,15 @@ if is_windows() then
     animation_fps = 60
     default_prog = {
         [[pwsh]]
+    }
+    front_end = 'WebGpu'
+    webgpu_power_preference = 'HighPerformance'
+    webgpu_preferred_adapter = {
+        backend = "Dx12",
+        device = 9504,
+        device_type = "DiscreteGpu",
+        name = "NVIDIA GeForce RTX 3060 Laptop GPU",
+        vendor = 4318,
     }
 else
     fonts[2] = {
@@ -77,7 +89,9 @@ local M = {
     font_size = font_size,
     animation_fps = animation_fps,
     default_prog = default_prog,
+    front_end = front_end,
+    webgpu_power_preference = webgpu_power_preference,
+    webgpu_preferred_adapter = webgpu_preferred_adapter,
 }
-
 
 return M
