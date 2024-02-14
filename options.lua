@@ -65,6 +65,7 @@ local M = {
     underline_thickness = 3.0,
     enable_scroll_bar = true,
     color_scheme = "MaterialOcean",
+    window_background_image = wezterm.config_dir .. [[/background/background.png]],
     window_background_opacity = 0.9,
     window_background_image_hsb = {
         brightness = 0.02,
