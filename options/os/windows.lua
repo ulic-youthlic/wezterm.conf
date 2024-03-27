@@ -7,8 +7,8 @@ local fonts = {
 
 return {
     font_size = 16.0,
-    animation_fps = 60,
-    max_fps = 60,
+    animation_fps = 144,
+    max_fps = 144,
     default_prog = {
         [[pwsh]]
     },
