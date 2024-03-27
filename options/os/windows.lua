@@ -12,15 +12,5 @@ return {
     default_prog = {
         [[pwsh]]
     },
-    front_end = 'WebGpu',
-    webgpu_power_preference = 'HighPerformance',
-    webgpu_preferred_adapter = {
-        backend = "Dx12",
-        device = 9504,
-        device_type = "DiscreteGpu",
-        name = "NVIDIA GeForce RTX 3060 Laptop GPU",
-        vendor = 4318,
-    },
-    win32_system_backdrop = "Acrylic",
     font = wezterm.font_with_fallback(fonts),
 }
