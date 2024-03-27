@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 
-local M = {
+return {
     automatically_reload_config = true,
     cell_width = 1.0,
     line_height = 1.05,
@@ -25,5 +25,3 @@ local M = {
         bottom = '0cell',
     },
 }
-
-return M
