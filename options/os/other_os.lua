@@ -10,7 +10,5 @@ return {
     term = "wezterm",
     font_size = 14.0,
     animation_fps = 1,
-    window_background_opacity = 0.9,
-    text_background_opacity = 0.6,
     font = wezterm.font_with_fallback(fonts),
 }

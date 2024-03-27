@@ -24,4 +24,6 @@ return {
         top = '0cell',
         bottom = '0cell',
     },
+    window_background_opacity = 0.9,
+    text_background_opacity = 0.6,
 }

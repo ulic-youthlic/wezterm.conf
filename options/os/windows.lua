@@ -21,8 +21,6 @@ return {
         name = "NVIDIA GeForce RTX 3060 Laptop GPU",
         vendor = 4318,
     },
-    window_background_opacity = 0.9,
-    text_background_opacity = 0.6,
-    font = wezterm.font_with_fallback(fonts),
     win32_system_backdrop = "Acrylic",
+    font = wezterm.font_with_fallback(fonts),
 }
