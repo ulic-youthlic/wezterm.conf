@@ -9,7 +9,7 @@ local fonts = {
 return {
     term = "wezterm",
     font_size = 14.0,
-    animation_fps = 60,
-    max_fps = 60,
+    animation_fps = 1,
+    max_fps = 1,
     font = wezterm.font_with_fallback(fonts),
 }
