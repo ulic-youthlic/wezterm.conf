@@ -3,7 +3,6 @@ local wezterm = require("wezterm")
 return {
     automatically_reload_config = true,
     cell_width = 1.0,
-    line_height = 1.05,
     audible_bell = "Disabled",
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
