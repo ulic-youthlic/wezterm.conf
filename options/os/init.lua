@@ -1,5 +1,5 @@
-if require('fn').is_windows() then
-    return require("options.os.windows")
+if require("fn").is_windows() then
+  return require("options.os.windows")
 else
-    return require("options.os.other_os")
+  return require("options.os.other_os")
 end
