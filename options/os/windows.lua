@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 local fonts = {
   require("fonts.firacode_nerd_font"),
-  require("fonts.twitter_color_emoji"),
+  require("fonts.segoe_ui_emoji"),
 }
 
 return {

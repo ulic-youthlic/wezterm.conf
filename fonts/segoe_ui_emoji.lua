@@ -1,4 +1,4 @@
 return {
-  family = [[Twitter Color Emoji]],
+  family = [[Segoe UI Emoji]],
   assume_emoji_presentation = true,
 }
